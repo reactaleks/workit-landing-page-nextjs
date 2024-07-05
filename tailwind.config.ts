@@ -48,7 +48,7 @@ const config: Config = {
 
       },
       borderRadius: {
-        'section-bottom': '75% 5%',
+        'section-bottom': '65% 5%',
       }
     },
   },

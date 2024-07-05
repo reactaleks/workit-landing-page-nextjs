@@ -4,7 +4,7 @@ import Button from "./ButtonComponent"
 
 export default function ActionComponent() {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col ">
             <div className="relative overflow-hidden h-64 flex w-full justify-center">
                 <Image src={founderImage} height={250} width={250} alt="Image of the company founder" className="top-12 absolute"/>
             </div>
