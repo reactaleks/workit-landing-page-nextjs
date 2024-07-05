@@ -32,6 +32,8 @@ const config: Config = {
         'pagesection': '1070.71px',
         'page-features-number': '48px',
         'page-feature-container': '206px',
+        'call-to-action': '375px',
+        'call-to-action-btn': '55px'
       },
       width: {
         'hero-btn': '133px',
@@ -40,11 +42,13 @@ const config: Config = {
         'logo': '95.76px',
         'pagesection': '375.3px',
         'page-features-number': '48px',
-        'page-feature-container': '343px'
+        'page-feature-container': '343px',
+        'call-to-action': '343px',
+        'call-to-action-btn': '172px'
 
       },
       borderRadius: {
-        'section-bottom': '75% 10%',
+        'section-bottom': '75% 5%',
       }
     },
   },

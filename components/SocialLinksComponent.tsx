@@ -5,11 +5,11 @@ import twittericon from "../public/icon-twitter.svg"
 
 export default function SocialLinks() {
     return (
-        <>
+        <div className="flex w-full justify-between">
             <Image src={instaicon} alt="Instagram social icon"/>
             <Image src={facebookicon} alt="Instagram social icon"/>
             <Image src={twittericon} alt="Twitter social icon"/>
 
-        </>
+        </div>
     )
 }
