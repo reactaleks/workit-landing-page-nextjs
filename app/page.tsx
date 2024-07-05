@@ -5,7 +5,7 @@ import ActionComponent from "@/components/ActionComponent";
 import PageFooter from "@/components/FooterComponent";
 export default function Home() {
   return (
-    <div className="container">
+    <div >
       <main>
         <HeroSection/>
         <PageSection sectionStyling="bg-ghost-white rounded-b-section-bottom pt-32 h-full pb-24  ">

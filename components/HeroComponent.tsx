@@ -25,7 +25,7 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <div className="relative left-10">
+        <div className="flex justify-center">
           <Image
             src={heroimage}
             alt="hero image"
