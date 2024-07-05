@@ -16,7 +16,7 @@ export default function ActionComponent() {
                     <p className="text-feature-description text-ghost-white font-manrope leading-7">Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our app and kickstart your company. Apply for access below and I’ll be in touch to schedule a call.</p>
                 </div>
                 <div className="mt-8">
-                    <Button btnText="Apply for access" btnStyling="h-call-to-action-btn w-call-to-action-btn bg-exucalyptus font-bold text-dark-purple"/>
+                    <Button btnText="Apply for access" btnType="primary" btnStyling="h-call-to-action-btn w-call-to-action-btn"/>
                 </div>
             </div>
         </div>

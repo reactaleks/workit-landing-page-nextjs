@@ -13,7 +13,7 @@ export default function HeroSection() {
             Data <span className="border-b-2 border-b-exucalyptus">tailored</span> to your needs
           </h1>
           <div>
-            <Button btnStyling="h-hero-btn w-hero-btn bg-exucalyptus font-bold  " btnText="Learn more"/>
+            <Button btnStyling="h-hero-btn w-hero-btn" btnType="primary" btnText="Learn more"/>
           </div>
         </div>
 
