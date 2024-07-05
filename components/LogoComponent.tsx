@@ -10,11 +10,11 @@ export default function LogoComponent({logotype}:Props) {
     
     if(logotype == "dark") {
         return(
-            <Image src={logodark} alt="Company logo" width={150} height={150}/>
+            <Image src={logodark} alt="Company logo" className="h-logo w-logo"/>
         )
     } else {
         return(
-            <Image src={logolight} alt="Company logo" width={150} height={150}/>
+            <Image src={logolight} alt="Company logo" className="h-logo w-logo"/>
         )
     }
 }

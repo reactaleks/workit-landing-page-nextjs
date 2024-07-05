@@ -15,8 +15,36 @@ const config: Config = {
     },
     extend: {
       fontFamily: {
-        'fraunces': ['"Fraunces 9pt Thin"', "sans-serif"],
-        'manrope': ['"Manrope ExtraLight"', "sans-serif"]
+        'fraunces': ['Fraunces', "sans-serif"],
+        'manrope': ['Manrope', "sans-serif"]
+      },
+      fontSize: {
+        'feature-number': '20px',
+        'feature-heading': '28px',
+        'feature-description': '16px',
+      },
+      height: {
+        'hero': '481.71px',
+        'hero-main': '195px',
+        'hero-btn': '55px',
+        'hero-image': '184px',
+        'logo': '24.61px',
+        'pagesection': '1070.71px',
+        'page-features-number': '48px',
+        'page-feature-container': '206px',
+      },
+      width: {
+        'hero-btn': '133px',
+        'hero-main': '343px',
+        'hero-image': '320px',
+        'logo': '95.76px',
+        'pagesection': '375.3px',
+        'page-features-number': '48px',
+        'page-feature-container': '343px'
+
+      },
+      borderRadius: {
+        'section-bottom': '75% 10%',
       }
     },
   },

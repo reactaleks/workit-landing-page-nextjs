@@ -7,7 +7,7 @@ interface Props {
 
 export default function PageSection({children}:Props) {
     return (
-        <section>
+        <section className="h-pagesection  flex flex-col w-full pt-36">
             {children}
         </section>
     )

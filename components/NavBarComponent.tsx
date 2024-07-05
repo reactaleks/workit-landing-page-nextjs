@@ -3,10 +3,10 @@ import Button from "./ButtonComponent"
 
 export default function NavBar() {
     return (
-        <nav>
-            <LogoComponent logotype="dark"/>
+        <nav className="flex">
+            <LogoComponent logotype="light"/>
             this is the navigation area 
-            <Button/>
+            <Button btnStyling="border border-t-0 border-x-0 border-b-exucalyptus text-ghost-white"/>
         </nav>
     )
 }

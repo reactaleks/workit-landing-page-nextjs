@@ -1,8 +1,11 @@
 
+interface Props {
+    btnStyling:string;
+    btnText:string;
+}
 
-export default function Button() {
-    
+export default function Button({btnStyling, btnText}:Props) {
     return (
-        <button>This is a button</button>
+        <button className={`${btnStyling}`}>{btnText}</button>
     )
 }
