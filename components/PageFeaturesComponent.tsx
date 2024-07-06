@@ -10,16 +10,42 @@ export default function PageFeatures({
   featuredescription,
 }: Props) {
   return (
-    <div className="flex flex-col  md:flex-row items-center justify-center h-page-feature-container w-page-feature-container md:w-page-feature-container-tablet md:h-page-feature-container-tablet md:justify-between  mx-auto mt-8 md:mt-18">
-      <div className="flex items-center justify-center border-2 border-dark-purple rounded-full w-[46px] h-[48px] font-fraunces text-feature-number">
+    <div
+      className="flex flex-col items-center mx-auto
+     h-[234px] md:h-[108px] lg:h-[308px]
+     w-[343px] md:w-[573px] lg:w-[1114px]
+     md:flex-row md:justify-between
+     lg:flex-col
+    "
+    >
+      <div
+        className="flex border-2 items-center justify-center border-dark-purple rounded-full  font-fraunces
+      h-[46px] lg:h-[56px]
+      w-[48px] lg:w-[56px]
+      text-[20px] md:text-[] lg:text-[24px]
+      "
+      >
         {featurenumber}
       </div>
 
-      <div className="text-center mt-6 md:text-start md:mt-0 w-page-feature-text-container h-page-feature-text-container md:h-page-feature-text-container-tablet md:w-page-feature-text-container-tablet">
-        <div className="text-feature-heading font-semibold font-fraunces ">
+      <div
+        className="text-center flex flex-col justify-around
+      h-[164px] md:h-[136px] lg:h-[]
+      w-[343px] md:max-w-[493px] lg:w-[]
+      md:justify-center md:text-start
+      lg:text-center
+      "
+      >
+        <div
+          className="font-semibold font-fraunces 
+        text-[28px] md:text-[] lg:text-[32px]"
+        >
           {featuretitle}
         </div>
-        <div className="text-feature-description font-manrope ">
+        <div
+          className="font-manrope 
+        text-[16px] md:text-[] lg:text-[18px]"
+        >
           {featuredescription}
         </div>
       </div>

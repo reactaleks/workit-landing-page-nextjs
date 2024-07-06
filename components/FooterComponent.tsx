@@ -3,14 +3,20 @@ import LogoComponent from "./LogoComponent";
 
 export default function PageFooter() {
   return (
-    <footer className="flex flex-col h-24 justify-center place-items-center w-full py-24">
-      <div>
-        <LogoComponent logotype="dark" />
-        
-      </div>
-      <div className="mt-12 w-32">
+    <footer className="flex justify-center">
+      <div
+        className="flex flex-col justify-between place-items-center 
+    h-[102.22px] 
+    w-[116px] 
+    "
+      >
+        <div>
+          <LogoComponent logotype="dark" />
+        </div>
+        <div className="">
           <SocialLinks />
         </div>
+      </div>
     </footer>
   );
 }

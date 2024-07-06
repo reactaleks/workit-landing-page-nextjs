@@ -8,7 +8,7 @@ interface Props {
 
 export default function PageSection({children, sectionStyling}:Props) {
     return (
-        <section className={` flex flex-col w-full  ${sectionStyling}`}>
+        <section className={`flex flex-col ${sectionStyling}`}>
             {children}
         </section>
     )
