@@ -6,6 +6,7 @@ import bgpatterntwo from "../public/bg-pattern-2.svg";
 export default function HeroSection() {
   return (
     <div className="overflow-hidden
+    bg-ghost-white
     h-[383.71px] 
     md:h-[442.24px] 
     lg:h-[632px]

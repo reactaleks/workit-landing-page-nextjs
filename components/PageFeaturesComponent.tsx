@@ -13,9 +13,10 @@ export default function PageFeatures({
     <div
       className="flex flex-col items-center mx-auto
      h-[234px] md:h-[108px] lg:h-[308px]
-     w-[343px] md:w-[573px] lg:w-[512px]
+     w-[343px] md:w-[573px] lg:w-[390px]
      md:flex-row md:justify-start lg:justify-around
      lg:flex-col
+     
      mt-6 
     "
     >

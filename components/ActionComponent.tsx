@@ -9,13 +9,13 @@ export default function ActionComponent() {
     <div className="flex ">
       <div className="flex flex-col relative justify-center
        h-[603px] md:h-[526px] lg:h-[647.74px]
-      w-[343px] md:w-[689px] lg:w-[1100px]
+      w-[343px] md:w-[689px] lg:w-[1028px]
       md:items-end
       ">
         <div className=" flex justify-center absolute 
         -top-[20%] left-[10%] 
         md:-left-[0%] md:-top-[15%]
-        lg:-top-[7%]
+        lg:-top-[7%] lg:-left-[15%]
         "
         >
           <Image

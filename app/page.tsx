@@ -41,7 +41,7 @@ export default function Home() {
           <div className="
           flex flex-col 
           lg:flex-row 
-          lg:p-8
+          lg:p-8 lg:px-32
           ">
             <PageFeatures
               featurenumber={1}
