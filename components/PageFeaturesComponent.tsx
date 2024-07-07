@@ -46,14 +46,14 @@ export default function PageFeatures({
         <div
           className="font-semibold font-fraunces 
         text-[28px] md:text-[] lg:text-[32px]
-        lg:mb-4
+        lg:mb-4 text-dark-purple
         "
         
         >
           {featuretitle}
         </div>
         <div
-          className="font-manrope 
+          className="font-manrope font-normal text-dark-purple
         text-[16px] md:text-[] lg:text-[18px]"
         >
           {featuredescription}
