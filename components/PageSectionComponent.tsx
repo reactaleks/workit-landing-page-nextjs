@@ -3,11 +3,12 @@ import { ReactNode } from "react"
 
 interface Props {
     children: ReactNode
+    sectionStyling: String
 }
 
-export default function PageSection({children}:Props) {
+export default function PageSection({children, sectionStyling}:Props) {
     return (
-        <section>
+        <section className={`flex flex-col ${sectionStyling}`}>
             {children}
         </section>
     )
