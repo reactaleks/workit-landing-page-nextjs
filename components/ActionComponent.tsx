@@ -46,9 +46,9 @@ export default function ActionComponent() {
             <p className=" text-ghost-white font-manrope
             text-[16px] md:text-[18px] lg:text-[18px]
             ">
-              Hi, I'm Louis Graham, the founder of the company. Book a demo call
+              Hi, I&apos;m Louis Graham, the founder of the company. Book a demo call
               with me to become a beta tester for our app and kickstart your
-              company. Apply for access below and I’ll be in touch to schedule a
+              company. Apply for access below and I&apos;ll be in touch to schedule a
               call.
             </p>
           </div>
