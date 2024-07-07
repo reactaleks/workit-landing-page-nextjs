@@ -9,6 +9,7 @@ import heroimage from "../public/image-hero.webp";
 import NavBar from "@/components/NavBarComponent";
 
 
+
 export default function Home() {
   return (
     <div>
