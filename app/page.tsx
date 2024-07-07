@@ -1,4 +1,5 @@
 import HeroSection from "@/components/HeroComponent";
+
 import PageSection from "@/components/PageSectionComponent";
 import PageFeatures from "@/components/PageFeaturesComponent";
 import ActionComponent from "@/components/ActionComponent";
@@ -6,6 +7,7 @@ import PageFooter from "@/components/FooterComponent";
 import Image from "next/image";
 import heroimage from "../public/image-hero.webp";
 import NavBar from "@/components/NavBarComponent";
+
 
 export default function Home() {
   return (
@@ -15,10 +17,11 @@ export default function Home() {
 
       <main className="">
         <HeroSection />
-        <PageSection sectionStyling=" bg-ghost-white justify-between rounded-b-section-bottom 
-          h-[920.73px] md:h-[960px]
+
+        <PageSection sectionStyling="bg-ghost-white justify-center rounded-b-section-bottom 
+          h-[987px] md:h-[786px] lg:h-[741px]
           md:justify-center
-          
+     
         ">
           <div className="flex justify-center ">
             <Image
@@ -26,9 +29,9 @@ export default function Home() {
               alt="hero image"
               className=" 
               absolute 
-              top-[450px] 
-              md:top-[500px]
-              lg:top-[600px]
+              top-[375px] 
+              md:top-[400px]
+              lg:top-[475px]
               h-[184px] md:h-[296px] lg:h-[441px] 
               w-[320px] md:w-[514px] lg:w-[767px]
               
@@ -37,7 +40,8 @@ export default function Home() {
           </div>
           <div className="
           flex flex-col 
-          lg:flex-row
+          lg:flex-row 
+          lg:p-8
           ">
             <PageFeatures
               featurenumber={1}

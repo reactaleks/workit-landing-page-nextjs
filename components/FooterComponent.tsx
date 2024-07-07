@@ -2,18 +2,18 @@ import SocialLinks from "./SocialLinksComponent";
 import LogoComponent from "./LogoComponent";
 
 export default function PageFooter() {
-  return (
-    <footer className="flex justify-center">
+  return ( 
+    <footer className="flex justify-center h-[100px] pb-40">
       <div
-        className="flex flex-col justify-between place-items-center 
-    h-[102.22px] 
-    w-[116px] 
+        className="flex flex-col justify-center place-items-center 
+ 
+  
     "
       >
-        <div>
+        <div className="mb-12">
           <LogoComponent logotype="dark" />
         </div>
-        <div className="">
+        <div className="w-full">
           <SocialLinks />
         </div>
       </div>

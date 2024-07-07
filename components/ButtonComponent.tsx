@@ -9,7 +9,7 @@ export default function Button({btnStyling, btnText, btnType}:Props) {
 
     if(btnType === 'primary') {
         return (
-            <button className={`${btnStyling} text-dark-purple hover:bg-dark-purple bg-exucalyptus font-bold hover:border-2 hover:border-exucalyptus hover:text-exucalyptus`}>{btnText}</button>
+            <button className={`${btnStyling} text-dark-purple font-bold hover:bg-dark-purple bg-exucalyptus  hover:border-2 hover:border-exucalyptus hover:text-exucalyptus`}>{btnText}</button>
         )
     } else {
         return (

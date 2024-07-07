@@ -6,7 +6,9 @@ export default function NavBar() {
     <nav className="flex w-full justify-between bg-dark-purple 
     
     py-4
+    pt-8
     md:py-8
+    lg:px-48
     
     ">
       <div className="

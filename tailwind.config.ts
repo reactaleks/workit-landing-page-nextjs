@@ -65,8 +65,11 @@ const config: Config = {
 
       },
       borderRadius: {
-        'section-bottom': '40% 5%',
-      }
+        'section-bottom': '35% 5%',
+  
+      },
+
+
     },
   },
   plugins: [],
